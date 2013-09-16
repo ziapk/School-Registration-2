@@ -42,14 +42,6 @@ scss file for school profile
   margin-left: 0;
 }
 
-.ya-school-registration {
-  padding: 30px;
-}
-@media (max-width: 767px) {
-  .ya-school-registration {
-    padding: 30px 15px;
-  }
-}
 .ya-school-registration h1 {
   font: 36px "ProximaNova-Regular";
 }

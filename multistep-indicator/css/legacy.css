@@ -70,7 +70,6 @@ div.multi-step ol > li .subtitle {
 	margin-top:0.4em;
 }
 
-
 div.multi-step.numbered ol > li .num {
 	display:inline-block;
 	vertical-align:top;
@@ -142,4 +141,17 @@ div.multi-step.five-steps ol > li .bg {
 		border-width:0;
 		top:6px;
 	}
+}
+
+@media (max-width: 979px) {
+div.multi-step ol > li {
+	min-height: 50px;
+	height: auto;
+}
+div.multi-step.numbered ol > li .wrap{
+	padding-left:23%;
+}
+div.multi-step.numbered ol > li.current .num, div.multi-step.numbered ol > li.current ~ li .num{
+	z-index:999;
+}
 }

@@ -75,10 +75,6 @@ $icon_font_size: 20px;
 }
 
 .ya-school-registration {
-    padding: $margin_padding * 2;
-	@media (max-width: 767px) {
-		padding: $margin_padding * 2 $margin_padding;
-	}
 	h1 {
 		font: $PageHeading;
 		@media (max-width: 460px) {
