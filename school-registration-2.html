@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+ <head>
+ <title>Example YA Content Template</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+ 
+
+<link href="css/normalize.css" rel="stylesheet"/>
+<link href="http://ajax.aspnetcdn.com/ajax/bootstrap/2.3.1/css/bootstrap.css" rel="stylesheet"/>
+<link href="http://ajax.aspnetcdn.com/ajax/bootstrap/2.3.1/css/bootstrap-responsive.css" rel="stylesheet"/>
+
+<!-- Multistep Indicator CSS -->
+<link rel="stylesheet" href="multistep-indicator/css/legacy.css">
+<link rel="stylesheet" href="multistep-indicator/css/colors.css">
+<!-- All the colors are in the same file, feel free to keep only the rules that are actually used, to save some bandwidth. -->
+<!-- Multistep Indicator CSS -->
+
+
+<link href="css/screen.css" rel="stylesheet" media="screen">
+<link href="css/school-registration-2.css" rel="stylesheet" media="screen">
+
+<script type="text/javascript" src="http://code.jquery.com/jquery-2.0.0.min.js"></script>
+<script src="http://ajax.aspnetcdn.com/ajax/modernizr/modernizr-2.0.6-development-only.js"></script>
+
+<script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+<script src="js/css3-mediaqueries.js"></script>
+<script src="js/school-registration-1.js"></script>
+<script src="js/bootstrap.js"></script>
+
+<style>
+	/* These are just temporary styles for this page */
+	body {
+		padding: 30px;
+		background-color: LightGray;
+	}
+	.ya-add-staff-member-search {
+		height: 100px;
+	}
+	@media (max-width: 1200px) {
+		body {
+			padding: 0;
+		} 
+	}
+</style>
+
+</head>
+<body>
+
+<main class="container-fluid ya-school-registration">
+	<div class="multi-step four-steps numbered color-1">
+		<ol>
+			<li class="current">
+				<div class="bg"><span class="num visible-phone">1</span><span class="arrow"></span></div>
+				<div class="wrap hidden-phone">
+					<p class="title">Start</p>
+					<p class="description">Create your School</p>
+				</div>
+			</li>
+			<li>
+				<div class="bg"><span class="num visible-phone">2</span><span class="arrow"></span></div>
+				<div class="wrap hidden-phone">
+					<p class="title">Locations</p>
+					<p class="description">Add your Locations</p>
+				</div>
+			</li>
+			<li>
+				<div class="bg"><span class="num visible-phone">3</span><span class="arrow"></span></div>
+				<div class="wrap hidden-phone">
+					<p class="title">People</p>
+					<p class="description">Add Staff & Trainers</p>
+				</div>
+			</li>
+			<li>
+				<div class="bg"><span class="num visible-phone">4</span><span class="arrow"></span></div>
+				<div class="wrap hidden-phone">
+					<p class="title">Designations</p>
+					<p class="description">Add your Tracks</p>
+				</div>
+			</li>
+			<li>
+				<div class="bg"><span class="num visible-phone">5</span><span class="arrow"></span></div>
+				<div class="wrap hidden-phone">
+					<p class="title">Payment</p>
+					<p class="description">Pay & Submit</p>
+				</div>
+			</li>
+		</ol>
+	</div>
+	<div class="ya-article">	
+		<section class="ya-main">
+		 <div class="school-registration-2 ">
+		 	<div class="ya-location-section">
+		 		<h1 class="ya-page-title">Our Locations</h1>
+				<div class="ya-location-block">
+							
+							<div class="ya-location-row">
+								<div class="ya-badge-block"><span class="badge badge-success">New</span><span class="badge badge-info">Primary Location</span></div>	
+								<div class="ya-box-one">
+									<address class="ya-location-address">
+										<h4>West Palm Beach Brahmi Yoga Shala</h4>
+										1290 West Palm Avenue<br>
+										West Palm Beach, CA  90876  <br>
+										United States<br>
+										(902) 456-3377
+									</address>
+								</div>
+								<div class="ya-box-two">
+									<button class="btn-link ya-action pull-right">Edit Location</button>
+									<div class="ya-price">$50.00</div>
+								</div>
+							</div>
+							<div class="ya-location-row">
+								<div class="ya-badge-block"><span class="badge badge-success">New</span></div>						
+								<div class="ya-box-one">
+									<address class="ya-location-address">
+										<h4>West Palm Beach Brahmi Yoga Shala</h4>
+										1290 West Palm Avenue<br>
+										West Palm Beach, CA  90876  <br>
+										United States<br>
+										(902) 456-3377
+									</address>
+								</div>
+								<div class="ya-box-two">
+									<button class="btn-link ya-action pull-right">Edit Location</button>
+									<div class="ya-price">$50.00</div>
+								</div>
+							</div>							
+							<div class="ya-location-row">	
+							<div class="ya-badge-block"><span class="badge badge-success">New</span></div>						
+								<div class="ya-box-one">
+									<address class="ya-location-address">
+										<h4>West Palm Beach Brahmi Yoga Shala</h4>
+										1290 West Palm Avenue<br>
+										West Palm Beach, CA  90876  <br>
+										United States<br>
+										(902) 456-3377
+									</address>
+									<button class="btn-link ya-action ya-delete-btn">Delete Location</button>
+								</div>
+								<div class="ya-box-two">
+									<button class="btn-link pull-right">Edit Location</button>
+									<div class="ya-price">$50.00</div>
+								</div>
+							</div>
+							<div class="ya-location-row ya-total-row">
+								 <span class="ya-value">$50.00</span><span class="ya-label">Total</span>
+							</div>
+						</div>	<!--end of block -->	
+						<div class="ya-button-row clearfix">
+							<button data-target="#id-add-location-panel" data-toggle="collapse" class="btn  input-medium">Add Location</button>
+							<button class="btn btn-success input-medium">Cancel</button>
+						</div>
+						<!-- end --> 	
+						<div id="id-add-location-panel" class="ya-additional-panel  collapse ">
+							<div class="ya-additional-panel-wrraper ya-add-location-panel">
+								<form>
+								<h2 class="ya-title">Add Location</h2>
+								<div class="row-fluid">
+									<div class="ya-left-column">
+										<div class="ya-note">
+											<h3>Annual Cost</h3>
+											<p>Your Primary Location is included with your annual school registration</p>
+											<h4>Each Additional Location <span class="pull-right">$50.00</span></h4>
+											<p>Adding a location gives you one additional directory listing for this new location. You can set any one location as your Primary at any time. </p>
+										</div>
+										<div class="clearfix">
+											<div class="control-group">
+												<label>Location Name <span class="ya-astrix">*</span></label>
+											    <input type="text" class="span12" placeholder="">
+										    </div>
+										    <div class="control-group">									   
+											    <label class="checkbox">
+											      <input type="checkbox"> Set as Primary Location
+												</label>
+											</div>
+										</div>
+										<div class="row-fluid">
+											
+										</div>
+
+
+									</div>
+									<div class="ya-right-column">
+										
+									</div>
+								</div>
+
+								<div class="row-fluid">
+									<div class="ya-left-column">
+										<div class="span6">
+												<h3 class="ya-title">Address</h3>
+												<div class="control-group">
+													<label>Country<span class="ya-astrix">*</span></label>
+											    	<select class="span12">
+											    		 <option>Please Select</option>
+													</select>
+											    </div>	
+											    <div class="control-group">
+													<label>Address 1</label>
+											    	<input type="text" class="span12" placeholder="">
+											    </div>	
+											    <div class="control-group">
+													<label>Address 2</label>
+											    	<input type="text" class="span12" placeholder="">
+											    </div>	
+											    <div class="control-group">
+													<label>State<span class="ya-astrix">*</span></label>
+											    	<select class="span12">
+													  <option>Please Select</option>
+													</select>
+											    </div>	
+											    <div class="control-group">
+													<label>City<span class="ya-astrix">*</span></label>
+											    	<input type="text" class="span12" placeholder="">
+											    </div>	
+											    <div class="control-group">
+													<label>Zip Code</label>
+											    	<input type="text" class="span12" placeholder="">
+											    </div>	
+											</div>
+											<div class="span6">
+												<h3 class="ya-title">Contact Details <span class="ya-help-icon" aria-hidden="true" data-icon="T"></span></h3>
+												 <label class="checkbox">
+											      <input type="checkbox"> Copy from School
+												</label>
+												  <div class="control-group">
+													<label>Contact Details Visible to<span class="ya-astrix">*</span></label>
+											    	<select class="span12">
+													  <option>Please Select</option>
+													  <option>Everyone</option>
+													  <option>Members Only</option>
+													  <option>Ya Staff Only</option>
+													</select>
+											    </div>
+											      <div class="control-group">
+													<label>Communications Person<span class="ya-astrix">*</span></label>
+											    	<select class="span12">
+													  <option>Please Select</option>
+													</select>
+											    </div>
+												<div class="help-block">
+													Will be shown as Primary Contact on your Public Profile
+												</div>
+												 <div class="control-group">
+													<label>Email<span class="ya-astrix">*</span></label>
+											    	<input type="text" class="span12" placeholder="">
+											    </div>	
+											    <div class="control-group">
+													<label>Phone</label>
+											    	<input type="text" class="span12" placeholder="">
+											    </div>	
+											</div>
+									</div>
+									<div class="ya-right-column">
+										<h3 class="ya-title">Location Profile Image</h3>
+										<div class="ya-profile-image">
+											<img class="span12" src="images/dummy.png">
+										</div>
+										<div class="ya-button-row-center">
+											<button data-target="#id-change-profile-image-2" data-toggle="collapse" class="btn ya-change-profile-image">Change Profile Image</button>
+										</div>
+										<div id="id-change-profile-image-2" class="collapse in">
+											<div class="ya-note">
+												<h3 class="ya-title">Location Image<span data-icon="T" aria-hidden="true" class="ya-help-icon"></span></h3>
+												<p>Click below to select a JPG, GIF or PNG format photo from your computer and then click 'Upload Image'</p>
+												<div class="ya-button-row"><button class="btn btn-block">Browser for file...</button></div>
+												<div class="ya-button-row"><span class="ya-label">Select file</span> <span class="ya-value pull-right">No file selected</span></div>
+												<div class="ya-button-row"><button class="btn btn-success btn-block">Upload Image</button></div>
+												<div class="ya-button-row"><button class="btn btn-block">Use Default Image</button></div>
+												<div class="ya-button-row"><button class="btn btn-block">Cancel</button></div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="row-fluid ya-button-row">
+									<button class="btn input-small">Save</button>
+									<button data-dismiss="#id-school-profile" data-toggle="collapse" class="btn input-small">Cancel</button>
+								</div>
+
+								</form> 
+							</div></div>
+						<!-- end of panel-->
+		 </div>
+		</div>
+
+		</section>
+		<aside class="ya-right-sidebar visible-desktop"></aside>
+	</div><!-- end article -->		
+</main>
+
+</body>
+</html>

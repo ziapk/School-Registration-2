@@ -1,0 +1,292 @@
+/* ####################################################
+NOTE
+scss file for school profile
+###################################################
+*/
+/** Global Fonts **/
+/** Global Type Size **/
+/** Global Color **/
+/** Global Radius **/
+/** Global Lines **/
+/** Global Drop Shadow **/
+.ya-article {
+  width: 100%;
+  overflow: hidden;
+  *zoom: 1;
+  margin: 30px 0;
+}
+.ya-article .ya-main {
+  float: left;
+  margin-left: 2.12766%;
+  width: 74.4681%;
+}
+.ya-article .ya-main:first-child {
+  margin-left: 0;
+}
+@media (max-width: 979px) {
+  .ya-article .ya-main {
+    float: left;
+    margin-left: 0%;
+    width: 100.00002%;
+  }
+  .ya-article .ya-main:first-child {
+    margin-left: 0;
+  }
+}
+.ya-article .ya-right-sidebar {
+  float: left;
+  margin-left: 2.12766%;
+  width: 23.40426%;
+}
+.ya-article .ya-right-sidebar:first-child {
+  margin-left: 0;
+}
+
+.ya-school-registration {
+  padding: 30px;
+}
+@media (max-width: 767px) {
+  .ya-school-registration {
+    padding: 30px 15px;
+  }
+}
+.ya-school-registration h1 {
+  font: 36px "ProximaNova-Regular";
+}
+@media (max-width: 460px) {
+  .ya-school-registration h1 {
+    font-size: 25px;
+  }
+}
+.ya-school-registration .ya-widget h3 {
+  border-bottom: 1px solid #d3d1c7;
+}
+.ya-school-registration hr {
+  border-bottom: 1px solid #d3d1c7;
+}
+
+/*********start of school-registration-2********/
+/**global */
+span[data-icon] {
+  font-size: 20px;
+  margin-left: 10px;
+}
+@media (max-width: 767px) {
+  span[data-icon] {
+    font-size: 18px;
+  }
+}
+
+.ya-help-icon {
+  color: #e5a053 !important;
+}
+
+.ya-grey-border-bottom, .ya-black-border-bottom, .school-registration-2 .ya-location-section .ya-location-block .ya-location-row {
+  padding-bottom: 10px;
+  margin: 15px 0;
+  border-bottom: 2px solid #ccc;
+}
+
+.ya-black-border-bottom {
+  border-bottom: 2px solid #333;
+}
+
+/****end of global***/
+.school-registration-2 {
+  /*end of panel*/
+}
+@media (max-width: 767px) {
+  .school-registration-2 .ya-location-section .ya-button-row {
+    text-align: center;
+  }
+}
+.school-registration-2 .ya-location-section .btn-link {
+  color: #96171A;
+  font-size: 13px;
+  padding: 0;
+}
+.school-registration-2 .ya-location-section .ya-page-title {
+  padding-bottom: 10px;
+  margin: 15px 0;
+  border-bottom: 2px solid #333;
+}
+@media (max-width: 767px) {
+  .school-registration-2 .ya-location-section .btn {
+    width: 150px;
+  }
+}
+@media (max-width: 767px) {
+  .school-registration-2 .ya-location-section .ya-note .btn {
+    width: 100% !important;
+  }
+}
+@media (max-width: 767px) {
+  .school-registration-2 .ya-location-section .ya-change-profile-image {
+    width: 210px;
+  }
+}
+.school-registration-2 .ya-location-section .ya-location-block .ya-badge-block {
+  width: 100%;
+  overflow: hidden;
+  *zoom: 1;
+}
+.school-registration-2 .ya-location-section .ya-location-block .ya-badge-block .badge {
+  margin: 0 10px 0 0;
+}
+.school-registration-2 .ya-location-section .ya-location-block .ya-total-row {
+  border: 0 none;
+}
+.school-registration-2 .ya-location-section .ya-location-block .ya-total-row .ya-label {
+  font-family: "ProximaNova-Bold";
+  color: #f37021;
+  font-size: 18px;
+  float: right;
+  margin: 0 15px 0 0;
+}
+.school-registration-2 .ya-location-section .ya-location-block .ya-total-row .ya-value {
+  font-family: "ProximaNova-Bold";
+  color: #f37021;
+  font-size: 18px;
+  float: right;
+}
+.school-registration-2 .ya-location-section .ya-location-block .ya-location-row {
+  width: 100%;
+  overflow: hidden;
+  *zoom: 1;
+}
+.school-registration-2 .ya-location-section .ya-location-block .ya-location-row .ya-box-one {
+  float: left;
+  margin-left: 0%;
+  width: 65.95746%;
+}
+.school-registration-2 .ya-location-section .ya-location-block .ya-location-row .ya-box-one:first-child {
+  margin-left: 0;
+}
+.school-registration-2 .ya-location-section .ya-location-block .ya-location-row .ya-box-two {
+  float: left;
+  margin-left: 2.12766%;
+  width: 31.9149%;
+}
+.school-registration-2 .ya-location-section .ya-location-block .ya-location-row .ya-box-two:first-child {
+  margin-left: 0;
+}
+.school-registration-2 .ya-location-section .ya-location-block .ya-location-row .ya-box-two .ya-price {
+  display: block;
+  float: left;
+  text-align: right;
+  width: 100%;
+  margin: 73px 0 0;
+}
+@media (max-width: 450px) {
+  .school-registration-2 .ya-location-section .ya-location-block .ya-location-row .ya-box-two .ya-price {
+    margin: 90px 0 0;
+  }
+}
+.school-registration-2 .ya-location-section .ya-location-block .ya-location-row .ya-location-address {
+  margin: 0 0 0px 0;
+}
+.school-registration-2 .ya-location-section .ya-location-block .ya-location-row .ya-location-address span {
+  color: #888888;
+}
+.school-registration-2 .ya-additional-panel {
+  width: 100%;
+  overflow: hidden;
+  *zoom: 1;
+  margin: 0 0 10px 0;
+}
+.school-registration-2 .ya-additional-panel .ya-additional-panel-wrraper {
+  background: #fff9e6;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  border-radius: 15px;
+  padding: 15px;
+  border: 2px solid #999999;
+}
+.school-registration-2 .ya-additional-panel .help-block h3 {
+  padding: 0;
+}
+.school-registration-2 .ya-additional-panel ul, .school-registration-2 .ya-additional-panel li {
+  list-style-type: none;
+  margin: 0;
+}
+.school-registration-2 .ya-additional-panel .right {
+  text-align: right;
+}
+.school-registration-2 .ya-additional-panel .left {
+  text-align: left;
+}
+.school-registration-2 .ya-additional-panel .ya-add-staff-modal {
+  background: #fff2cc;
+}
+.school-registration-2 .ya-additional-panel .ya-title {
+  border-bottom: 2px solid #CCCCCC;
+}
+.school-registration-2 .ya-additional-panel .ya-note {
+  border: 2px solid #CCCCCC;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  border-radius: 15px;
+  padding: 15px;
+  background: #ffffff;
+  margin: 0 0 10px 0;
+}
+.school-registration-2 .ya-additional-panel .ya-note .ya-button-row {
+  text-align: left !important;
+}
+.school-registration-2 .ya-additional-panel .ya-file {
+  height: auto;
+}
+.school-registration-2 .ya-additional-panel .ya-profile-image {
+  max-width: 240px;
+  margin: 0 auto;
+}
+.school-registration-2 .ya-additional-panel .ya-button-row-center {
+  text-align: center;
+}
+.school-registration-2 .ya-additional-panel .ya-add-location-panel .ya-left-column {
+  float: left;
+  margin-left: 2.12766%;
+  width: 65.95746%;
+}
+.school-registration-2 .ya-additional-panel .ya-add-location-panel .ya-left-column:first-child {
+  margin-left: 0;
+}
+@media (max-width: 767px) {
+  .school-registration-2 .ya-additional-panel .ya-add-location-panel .ya-left-column {
+    float: left;
+    margin-left: 0%;
+    width: 100.00002%;
+  }
+  .school-registration-2 .ya-additional-panel .ya-add-location-panel .ya-left-column:first-child {
+    margin-left: 0;
+  }
+}
+.school-registration-2 .ya-additional-panel .ya-add-location-panel .ya-right-column {
+  float: left;
+  margin-left: 2.12766%;
+  width: 31.9149%;
+}
+.school-registration-2 .ya-additional-panel .ya-add-location-panel .ya-right-column:first-child {
+  margin-left: 0;
+}
+@media (max-width: 767px) {
+  .school-registration-2 .ya-additional-panel .ya-add-location-panel .ya-right-column {
+    float: left;
+    margin-left: 0%;
+    width: 100.00002%;
+  }
+  .school-registration-2 .ya-additional-panel .ya-add-location-panel .ya-right-column:first-child {
+    margin-left: 0;
+  }
+}
+@media (max-width: 767px) {
+  .school-registration-2 .ya-additional-panel .ya-add-location-panel .ya-button-row {
+    text-align: center;
+  }
+}
+
+/*******end of school-registration-2****/
